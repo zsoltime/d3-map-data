@@ -45,6 +45,7 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
-    "d3": "^4.7.3"
+    "d3": "^4.7.3",
+    "topojson": "^2.2.0"
   }
 }
