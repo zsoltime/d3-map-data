@@ -85,7 +85,7 @@ function visualize(data) {
 
     const meteorites = map.append('g')
       .selectAll('circle')
-        .data(data.features)
+        .data(data.features.sort((a, b) => b.properties.mass - a.properties.mass))
         .enter()
         .append('circle')
           .attr('class', 'meteor')
